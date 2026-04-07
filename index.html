@@ -1,138 +1,104 @@
-<!DOCTYPE html>
-<html lang = "en">
+>\<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0" >
-        <title> LOGIN </title>
-        <script type="text/javascript">
-           function validateLogin(){
-            var username = document.getElementById("username").value;
-            var password = document.getElementById("password").value;
-            var email = document.getElementById("email").value;
-            if(username ==="IshimweOli" && password==="1992@Dm20!" && email==="IshimweOli33@gmail.com" ){
-                window.open("NAVBAR
-                
-                .html");
-                
-            }
-            else{
-                alert("INCORRECT CREDENTIALS!!!!");
-                form.reset;
-            }
-
-           }
-        </script>
+        <meta Charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> K.A.M CODER</title>
 
         <style>
             *{
-                align-items: center;
-                text-align: center;
-                background-color: white;
-                background-position: none;
-                background-repeat: no-repeat;
-                align-content: center;
-
-                
-                border-radius: 10px;
-                border-color: #4caf50;
+                background-color: aquamarine;
+                margin: 2px;
+                padding: 10px;
             }
+
             body{
-                font-family: Arial, sans-serif;
-                background-color: #f0f0f0;
-                align-items: center;
-                text-align: center;
-            }
-            .container{
-                width: 300px;
-                 margin: 50px;
-                padding: 20px;
-                background-color:white;
-                border: 1px solid #ddd;
-                border-radius:10px;
-                box-shadow: 0 0 10px rgba(228, 59, 59, 0.1);
-                align-items: center;
-                text-align: center;
-                color:#8ef11d
-            }
-            input[type="text"], input[type="password"]{
-                 width: 100%;
-                 height: 40px;
-                margin-bottom: 20px;
-                padding: 10px 5px;
-                background-color: rgb(252, 231, 231);
-                border: 1px solid #0a0a0a;
-                border-radius:5px;
-                align-items: center;
-                text-align: center;
-                color: rgb(12, 12, 223);
-            }
-            button[type="submit"]{
-                 width: 100%;
-                 height: 40px;
-                 background-color: rgb(223, 14, 14);
-                border: none;
-                color: #fff;
-                border-radius:5px;
-                cursor: pointer;
-                align-items: center;
-                text-align: center;
-                box-shadow: yellow;
-                box-sizing: border-box;
-            }
-            button[type= "submit"]:hover{
-                background-color: #3e8e41;
-            }
-            @media (max-width:480px){
-                .container{
-                    padding:20px;
-                }
-                 input[type="text"], input[type="password"]{
- width: 100%;
-                 height: 40px;
-                margin-bottom: 20px;
-                padding: 10px 5px;
-                background-color: rgb(252, 231, 231);
-                border: 1px solid #0a0a0a;
-                border-radius:5px;
-                align-items: center;
-                text-align: center;
-                color: rgb(12, 12, 223)
-                 }
-                  button[type="submit"]{
-                 width: 100%;
-                 height: 40px;
-                 background-color: rgb(223, 14, 14);
-                border: none;
-                color: #fff;
-                border-radius:5px;
-                cursor: pointer;
-                align-items: center;
-                text-align: center;
-                box-shadow: yellow;
+                background-color: linear gradient rgb(rgb(4, 0, 255));
                 
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                height: 100vh;
             }
+
+            h1{
+                color: rgb(8, 8, 238);
+                font-size: 450%;
+                font-family: 'Times New Roman', Times, serif;
+                background-position: fixed;
+                background-size: contain;
+                background-color: rgb(155, 232, 235);
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                border-color: antiquewhite;
+
             }
+
+
         </style>
+    
+
     </head>
+    
     <body>
-        <center>
-        <div class = "container">
-            <h1> LOGIN </h1>
-            <form id = "login-form"  onsubmit="event.preventDefault(); validateLogin();" action="search.html" method="GET">
-                <label for="username">USERNAME</label>
-                <input type = "text" id = "username" placeholder = "Username" required >
-                <br><br><br>
-                <label for="password">PASSWORD</label>
-                <input type = "password" id = "password" placeholder = "Password" name="password" required ><br><br><br>
-                <label for="e-mail">E-MAIL</label>
-                <input type = "text" id = "email" placeholder = "E-mail" required ><br><br><br>
+        <!........header section........>
+        <header>
+            <div class="container">
+                <h1>KAM CODER SOFTWARE ENGINEER </h1>
+                <p>SOFTWARE ENGINEER |  PROBLEM SOLVER</p>
+                <nav>
+                    <ul>
+                        <li><a href="#about"> ABOUT </a>  </li>
+                        <li><a href="#skills"> SKILLS </a>  </li>
+                        <li><a href="#contact"> CONTACTS </a>  </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-                <button type = "submit" ondblclick="validateLogin()"> LOGIN</button> 
-                
-            </form>
-            
+        <!..........about section.....>
+        <section id="about">
+            <div class="container">
+                <h2> ABOUT</h2>
+                <p> Hi, i am KAM CODER , a passionate software engineer dedicated to building efficient, scalable and user-friendly Applications..
+                    <br>
+                    I thrive on solving complex Problems and turning ideas into reality through code..
+                </p>
+
+            </div>
+
+        </section>
+
+        <!.........skills section.....>
+        <section id="skills">
+            <div class="container">
+                <h2>SKILLS</h2>
+                <ul class="skills-list">
+                    <li>JAVASCRIPT/TYPESCRIPT</li>
+                    <li>PYTHON</li>
+                    <li>HTML AND CSS</li>
+                    <li>REACT AND NODE.js</li>
+                    <li>C AND C<sup>#</sup> PROGRAMMING</li>
+                    <li>DATABASES(SQL AND MongoDB)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!.............contact section............>
+        <section id="Contact">
+            <div class="container">
+                <h2> CONTACT </h2>
+                <p>Email: <a href =""> kamcoder@gmail.com</a>  </p>
+                <p>Whatsapp/Call: <a href="#"> +2567809958889</a> </p>
+                <p>GitHub: <a href="#">github.com/kamcoder </a></p>
+            </div>
+        </section>
+
+        <!........footer section..........>
+        <div class="container">
+            <p> &copy: BEST CODING LEAD, KAMCODER.  All rights reserved....</p>
         </div>
-    </center>
-    </body>
 
+    </body>
 </html>
